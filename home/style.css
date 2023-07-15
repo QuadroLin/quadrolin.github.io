@@ -1,0 +1,273 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width:1000px) {
+
+    .firstblock h1{
+        position: relative; top: 200px;
+    }
+
+    .secondblock{
+        height: 500px;
+    }
+
+    .first, .second{
+        width: 44%;
+        margin: 3%;
+    }
+
+    .fourthblock{
+        height: 700px;
+    }
+
+    .imageblockIMG{
+        width: 90%;
+    }
+
+}
+
+@media screen and (min-width:600px) and (max-width:999px) {
+
+    .firstblock h1{
+        position: relative; top: 200px;
+    }
+
+    .secondblock{
+        height: 900px;
+    }
+
+    .first, .second{
+        width: 98%;
+        margin: 2%;
+    }
+
+    .fourthblock{
+        height: 350px;
+    }
+
+    .imageblockIMG{
+        width: 89%;
+    }
+
+}
+
+.block {
+    width: 100%;
+    border: 1px solid rgb(32, 32, 32);
+    display: block;
+}
+
+.firstblock{
+    background:linear-gradient(175deg, #000000, #454645);
+    height: 500px;
+}
+
+.firstblock h1{
+    color: white;
+    text-align: center;
+}
+
+
+
+.secondblock {
+    color: white;
+    background-color: #454645;
+}
+
+.image {
+    width: 100%;
+}
+
+.secondblock h1{
+    text-align: center;
+}
+
+.gridwrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.first , .second{
+    background-color: #464646;
+    display: block;
+}
+
+.first a , .second a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    background-color: rgb(41, 41, 41);
+    width: 300px;
+    height: 20px;
+    padding-top: 5px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+}
+
+
+
+.thirdblock{
+    color: white;
+    background:linear-gradient(175deg, #454645, #000000);
+    height: 500px;
+}
+.thirdblock h1{
+    text-align: center;
+    position: relative; top: 40%;
+}
+
+
+.fourthblock{
+    color: white;
+    background-color: #000000;
+}
+
+.fourthblock h1{
+    text-align: center;
+}
+
+.pictures{
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.picscontainer{
+    display: block;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+.pictures button{
+    border: 1px solid #454645;
+    background-color: #000000;
+    color: white;
+    font-size: larger;
+}
+
+
+
+
+.fifthblock{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+/*Calculator*/
+
+.sixthblock{
+    background-color: #000000;
+    padding-bottom: 40px;
+    
+}
+.sixthblock h1{
+    color: white;
+    text-align: center;
+}
+
+.calculator{
+    display: block;
+    width: 300px;
+    height: 575px;
+    border: 1px solid #464646;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: rgb(121, 120, 120);
+}
+
+
+.display{
+    border-radius: 5px;
+    width: 95%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    height: 75px;
+    font-size: 50px;
+    font-family: sans-serif;
+    border: none;
+    background-color: #000000;
+    color: #f1f1f1;
+}
+
+.buttons{
+    margin-top: 2px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button{
+    border: none;
+    border-radius: 5px;
+    width: 32%;
+    margin: 0.5%;
+    height: 56px;
+    font-size: xx-large;
+    background-color: rgb(0, 0, 0);
+}
+
+.equals{
+    width: 98.5%;
+    background-color: rgb(84, 84, 255);
+    transition: all 0.3s ease;
+}
+
+.equals:hover{
+    background-color:rgb(48, 48, 255) ;
+}
+
+
+.bdigit0{
+    margin: 0.5%;
+    width: 98.5%;
+}
+
+.bdigit{
+    height:60px ;
+    transition: all 0.3s ease;
+    color: #f1f1f1;
+}
+
+.bdigit:hover{
+    background-color: #1d1d1d;
+}
+
+.nodig{
+    background-color: #444444 ;
+    transition: all 0.3s ease;
+    color: #f1f1f1;
+}
+
+.nodig:hover{
+    background-color: #525252 ;
+}
+
+
+.footer{
+    background-color: #454645;
+    color: #fff;
+    text-align: center;
+    height: 60px;
+}

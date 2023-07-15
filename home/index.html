@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Главная</title>
+</head>
+<body>
+
+    <div class="block firstblock">
+        <h1>Привет, Я Meliodas</h1>
+    </div>
+
+    <div class="block secondblock">
+        <h1>Мои последние проекты</h1>
+        <div class="gridwrapper">
+            <div class="first">
+                <img src="this.png" alt="" class="image">
+                <a href="/">Этот сайт</a>
+            </div>
+            <div class="second">
+                <img src="picksio.png" alt="" class="image">
+                <a href="https://picksio.meliodasanwap.repl.co">Простая Flask Галерея</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="block thirdblock">
+        <h1>До этого были ещё, но наверное потерялись</h1>
+    </div>
+
+    <div class="block fourthblock">
+        <h1>Немного картинок</h1>
+        <div class="picscontainer">
+            <div class="pictures">
+                <button class="previous" onclick="prevPage();">&#x2190;</button>
+                <img src="images/6.png" alt="" class="imageblockIMG">
+            <button class="next" onclick="nextPage();">&#x2192;</button>
+        </div>
+        </div>
+    </div>
+
+    <div class="block fifthblock">
+        <h1>Глянь что еще там есть</h1>
+        <h1>&#x2193;</h1>
+    </div>
+
+    <div class="block sixthblock">
+        <h1>Калькулятор</h1>
+        <div class="calculator">
+            <div class="screen">
+                <input type="text" class="display" value="">
+            </div>
+            <div class="buttons">
+                <button class=" clear button nodig" onclick="clearDisplay()">C</button>
+                <button class="backspace button nodig" onclick="deleteLast()">⌫</button>
+                <button class="plus button nodig" onclick="nonDigit('+')">+</button>
+                <button class="minus button nodig" onclick="nonDigit('-')">-</button>
+                <button class="multiply button nodig" onclick="nonDigit('×')">×</button>
+                <button class="divide button nodig" onclick="nonDigit('÷')">÷</button>
+                <button class="bracket button nodig" onclick="nonDigit('(')">(</button>
+                <button class=" point button nodig" onclick="nonDigit('.')">.</button>
+                <button class="bracket button nodig" onclick="nonDigit(')')">)</button>
+                <button class="equals button" onclick="equals()">=</button>
+                <button class="button bdigit" onclick="digitButt(1);">1</button>
+                <button class="button bdigit" onclick="digitButt(2);">2</button>
+                <button class="button bdigit" onclick="digitButt(3);">3</button>
+                <button class="button bdigit" onclick="digitButt(4);">4</button>
+                <button class="button bdigit" onclick="digitButt(5);">5</button>
+                <button class="button bdigit" onclick="digitButt(6);">6</button>
+                <button class="button bdigit" onclick="digitButt(7);">7</button>
+                <button class="button bdigit" onclick="digitButt(8);">8</button>
+                <button class="button bdigit" onclick="digitButt(9);">9</button>
+                <button class="bdigit0 bdigit button" onclick="digitButt(0);">0</button>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <strong>2023</strong>
+    </div>
+
+    <script src="calc.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
