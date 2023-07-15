@@ -26,6 +26,10 @@ body{
         height: 700px;
     }
 
+    .pictures button{
+        width: 4.9%;
+    }
+
     .imageblockIMG{
         width: 90%;
     }
@@ -39,7 +43,7 @@ body{
     }
 
     .secondblock{
-        height: 900px;
+        height: 1300px;
     }
 
     .first, .second{
@@ -48,11 +52,66 @@ body{
     }
 
     .fourthblock{
-        height: 350px;
+        height: 600px;
+    }
+
+    .fifthblock{
+        height: 300px;
+    }
+
+    .pictures button{
+        width:5.8%;
+        text-align: center;
+    }
+
+    .pictures{
+        width: 100%;
     }
 
     .imageblockIMG{
-        width: 89%;
+        width: 88%;
+    }
+
+}
+
+@media screen and (min-width:300px) and (max-width:599px) {
+
+    .firstblock h1{
+        position: relative; top: 200px;
+    }
+
+    .secondblock{
+        height: 600px;
+    }
+
+    .first, .second{
+        width: 98%;
+        margin: 2%;
+    }
+
+    .fourthblock{
+        height: 600px;
+    }
+
+    .fifthblock{
+        height: 300px;
+    }
+
+    .pictures{
+        width: 99%;
+    }
+
+    .pictures button{
+        width:100%;
+        text-align: center;
+    }
+
+    .imageblockIMG{
+        width: 100%;
+    }
+
+    .picscontainer{
+        width: 100%;
     }
 
 }
@@ -91,6 +150,7 @@ body{
 .gridwrapper{
     display: flex;
     flex-wrap: wrap;
+
 }
 
 .first , .second{
@@ -135,7 +195,6 @@ body{
 }
 
 .pictures{
-    width: 90%;
     max-width: 1200px;
     display: flex;
     flex-direction: row;
@@ -146,9 +205,10 @@ body{
 
 .picscontainer{
     display: block;
-    width: 90%;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: auto;
+    margin-top: auto;
 }
 
 
